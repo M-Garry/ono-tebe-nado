@@ -16,10 +16,14 @@
       <nav class="header__menu">
         <ul class="header__links-list">
           <li class="header__links-list-item header__links-list-item_no-bullit">
-            главная
+            <a class="header__link_active" href="#">главная</a>
           </li>
-          <li class="header__links-list-item">посмотреть лоты</li>
-          <li class="header__links-list-item">об аукционе</li>
+          <li class="header__links-list-item">
+            <a class="header__link" href="#">посмотреть лоты</a>
+          </li>
+          <li class="header__links-list-item">
+            <a class="header__link" href="#">об аукционе </a>
+          </li>
         </ul>
       </nav>
       <!-- logo -->
@@ -59,16 +63,16 @@
           >
         </h1>
         <div class="cover__description">
-          <div class="cover__description-text">
+          <p class="cover__description-text">
             Аукцион вещей, в которые никто не верил
-          </div>
+          </p>
           <button class="bet-button">СДЕЛАТЬ СТАВКУ</button>
         </div>
         <div class="overlay"></div>
       </section>
       <!-- lots -->
       <section class="lots">
-        <div class="lots__heading">лоты</div>
+        <h2 class="lots__heading">лоты</h2>
         <!-- Список карточек -->
         <ul class="lots__card-list">
           <li class="lots__card-list-item">
@@ -121,9 +125,9 @@
             </a>
           </li>
         </ul>
-        <div class="lots__look-more-link">
-          <a href="#">посмотреть больше</a>
-        </div>
+
+        <a class="lots__look-more-link" href="#">посмотреть больше</a>
+
         <!-- ABOUT-->
       </section>
       <section class="about">
@@ -166,52 +170,51 @@
       <!-- menu -->
       <nav class="footer__menu">
         <ul class="footer__menu-list">
-          <li class="footer__menu-list-item footer__menu-link_active">
-            главная
+          <li class="footer__menu-list-item">
+            <a class="footer__menu-link-active" href="#">главная</a>
           </li>
-          <li class="footer__menu-list-item">посмотреть лоты</li>
-          <li class="footer__menu-list-item">об аукционе</li>
+          <li class="footer__menu-list-item">
+            <a class="footer__menu-link" href="#">посмотреть лоты</a>
+          </li>
+          <li class="footer__menu-list-item">
+            <a class="footer__menu-link" href="#">об аукционе</a>
+          </li>
         </ul>
       </nav>
-      <div class="footer__social-list">
-        <ul class="footer__social-list">
-          <li class="footer__social-list-item">
-            <a
-              class="footer__social-link"
-              href="https://www.youtube.com/"
-              target="_blank"
-            >
-              <img
-                class="footer__social-icon"
-                src="./images/yt.svg"
-                alt="YouTube"
-              />
-            </a>
-          </li>
-          <li class="footer__social-list-item">
-            <a
-              class="footer__social-link"
-              href="https://vk.com"
-              target="_blank"
-            >
-              <img class="footer__social-icon" src="./images/vk.svg" alt="VK" />
-            </a>
-          </li>
-          <li class="footer__social-list-item">
-            <a
-              class="footer__social-link"
-              href="https://pinterest.com"
-              target="_blank"
-            >
-              <img
-                class="footer__social-icon"
-                src="./images/pinterest.svg"
-                alt="Pinterest"
-              />
-            </a>
-          </li>
-        </ul>
-      </div>
+
+      <ul class="footer__social-list">
+        <li class="footer__social-list-item">
+          <a
+            class="footer__social-link"
+            href="https://www.youtube.com/"
+            target="_blank"
+          >
+            <img
+              class="footer__social-icon"
+              src="./images/yt.svg"
+              alt="YouTube"
+            />
+          </a>
+        </li>
+        <li class="footer__social-list-item">
+          <a class="footer__social-link" href="https://vk.com" target="_blank">
+            <img class="footer__social-icon" src="./images/vk.svg" alt="VK" />
+          </a>
+        </li>
+        <li class="footer__social-list-item">
+          <a
+            class="footer__social-link"
+            href="https://pinterest.com"
+            target="_blank"
+          >
+            <img
+              class="footer__social-icon"
+              src="./images/pinterest.svg"
+              alt="Pinterest"
+            />
+          </a>
+        </li>
+      </ul>
     </footer>
   </body>
 </html>
