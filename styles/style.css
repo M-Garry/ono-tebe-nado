@@ -6,7 +6,6 @@
   justify-content: space-between;
   align-items: center;
   width: 1052px;
-  max-height: 105px;
   margin-top: 92px;
   margin-right: 24px;
   margin-bottom: 96px;
@@ -45,6 +44,7 @@
   text-decoration: none;
   list-style-type: none;
 }
+
 .header__links-list-item_no-bullit {
   list-style-type: none;
 }
@@ -133,7 +133,6 @@
 .aligned-text_right {
   position: relative;
   display: block;
-
   padding-top: 11px;
   letter-spacing: 30px;
   text-align: right;
@@ -261,7 +260,6 @@
 }
 
 .card__text {
-
   z-index: 3;
   color: white;
   font-family: Raleway, Arial, sans-serif;
@@ -293,7 +291,6 @@
 }
 
 /* ABOUT */
-
 .about {
   display: grid;
   grid-template-columns: 334px 1fr;
