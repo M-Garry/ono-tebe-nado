@@ -14,18 +14,21 @@
 
 .header__menu {
   grid-area: menu;
-  justify-self: start;
-  width: 391px;
+  padding-top: 44px; ;
+  padding-bottom: 39px;
+  padding-left: 26.52px;
+  /* width: 391px; 
   margin-top: 44px;
   margin-bottom: 39px;
-  margin-left: 26.52px;
+  margin-left: 26.52px; */
 }
 
 .header__links-list {
   display: flex;
   grid-area: menu;
   gap: 31px;
-  margin: 0;
+  /* justify-content: space-between;
+  margin: 0; */
   list-style: circle;
 }
 
